@@ -1,8 +1,12 @@
 TicTacToe::Application.routes.draw do
 
+  get "game/index"
+
+  get "game/play"
+
   devise_for :users
 
-  # root :to => "home#index"
+  root :to => "game#index"
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
