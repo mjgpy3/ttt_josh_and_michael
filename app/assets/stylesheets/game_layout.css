@@ -1,0 +1,17 @@
+div.game-containing-box {
+  border: solid 2px;
+  float: left;
+}
+
+table.board{
+  border: solid 2px;
+  cellpadding: 2px;
+  cellspan: 2px;
+
+}
+
+table.border tr td {
+  border: solid 2px;
+
+
+}
